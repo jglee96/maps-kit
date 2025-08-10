@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@maps-kit/core": ["packages/core/src"],
+      "@maps-kit/google-map": ["packages/google-map/src"],
+      "@maps-kit/naver-map": ["packages/naver-map/src"],
+      "@maps-kit/kakao-map": ["packages/kakao-map/src"]
+    },
+    "target": "ES5",
+    "lib": ["ES5", "ES2015", "DOM"]
+  }
+}

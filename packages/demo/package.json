@@ -1,0 +1,18 @@
+{
+  "name": "@maps-kit/demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@maps-kit/core": "workspace:*",
+    "@maps-kit/google-map": "workspace:*",
+    "@maps-kit/naver-map": "workspace:*",
+    "@maps-kit/kakao-map": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^7.1.1"
+  }
+}
